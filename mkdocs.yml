@@ -33,9 +33,6 @@ copyright: "© 2020: iCarto - Innovación, Cooperación, Cartografía y Territor
 extra_css:
   - assets/stylesheets/extra.css
 
-extra_javascript:
-  - assets/javascript/visitor_counter.js
-
 plugins: []
 
 markdown_extensions:

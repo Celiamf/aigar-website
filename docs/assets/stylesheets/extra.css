@@ -3,3 +3,13 @@
   --md-primary-fg-color--light: #ecb7b7;
   --md-primary-fg-color--dark: #90030c;
 }
+
+.md-footer-meta__counter {
+  display: flex;
+  align-items: center;
+}
+
+.md-footer-meta__counter img {
+  vertical-align: middle;
+  margin-bottom: 0;
+}
