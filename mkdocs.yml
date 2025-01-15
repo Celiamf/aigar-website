@@ -1,60 +1,39 @@
-site_name: My Docs Material Demo
+site_name: Aplicación Innovadora para la Gestión de Agua Rural (AIGAR)
 site_url: https://Celiamf.github.io/mkdocs-material-demo/
 
 theme:
   name: material
+  custom_dir: overrides
   language: es
-  icon:
-    logo: fontawesome/solid/a
-  favicon: assets/logo.png
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
   font:
     text: Montserrat
     code: Roboto Mono
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    # - navigation.footer
-    # - navigation.expand
-    # - navigation.sections
-    - search.highlight
   # palette:
   #   primary: custom
   palette:
-    # Dark mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: light blue
-      accent: teal
-    # Light mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: indigo
-      accent: teal
+    primary: light blue
+    accent: teal
 
 nav:
   - Inicio: index.md
   - Qué es AIGAR: about.md
   - Metodología: methodology.md
-  - Partes involucradas: third_parties.md
-  - Estado del proyecto: project_status.md
+  - Partes involucradas: parties.md
+  - Estado del proyecto: project.md
   - Descargas: downloads.md
   - Contacto: contact.md
 
 copyright: "© 2020: iCarto - Innovación, Cooperación, Cartografía y Territorio S.L."
 
-extra:
-  social:
-    - icon: simple/youtube
-      link: https://youtube.com/
-    - icon: simple/linkedin
-      link: https://linkedin.com/
+extra_css:
+  - assets/stylesheets/extra.css
 
-# extra_css:
-#   - stylesheets/extra.css
+plugins: []
 
 markdown_extensions:
   - attr_list
