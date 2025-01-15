@@ -1,7 +1,12 @@
 :root {
-  --md-primary-fg-color: #ee0f0f;
-  --md-primary-fg-color--light: #ecb7b7;
-  --md-primary-fg-color--dark: #90030c;
+  /* Primary color shades */
+  --md-primary-fg-color: #025eaa;
+  --md-primary-fg-color--light: #538bdc;
+  --md-primary-fg-color--dark: #ddebff;
+
+  /* Accent color shades*/
+  --md-accent-fg-color: #7fbce1;
+  --md-accent-fg-color--transparent: hsla(#7fbce1, 0.1);
 }
 
 .md-footer-meta__counter {

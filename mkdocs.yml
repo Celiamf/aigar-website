@@ -13,11 +13,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-  # palette:
-  #   primary: custom
   palette:
-    primary: light blue
-    accent: teal
+    primary: custom
 
 nav:
   - Inicio: index.md
