@@ -9,6 +9,13 @@
   --md-accent-fg-color--transparent: hsla(#7fbce1, 0.1);
 }
 
+.md-logo {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .md-footer-meta__counter {
   display: flex;
   align-items: center;
