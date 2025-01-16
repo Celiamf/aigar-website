@@ -1,5 +1,5 @@
 site_name: Aplicación Innovadora para la Gestión de Agua Rural
-site_url: https://Celiamf.github.io/mkdocs-material-demo/
+site_url: https://celiamf.github.io/aigar-website/
 
 theme:
   name: material
@@ -37,9 +37,6 @@ plugins: []
 
 markdown_extensions:
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true

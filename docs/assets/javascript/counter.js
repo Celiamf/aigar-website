@@ -4,7 +4,7 @@
     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhrdm92bXF2b3l3bWJuaHd0dWRpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzcwMTY2MzMsImV4cCI6MjA1MjU5MjYzM30.HRDvlz3dZwD8jl5zW94h_qcuGl0evQuGWUHouuX4WaY";
 
   const spb = supabase.createClient(supabaseUrl, supabaseKey);
-  const baseDomainPath = "/mkdocs-material-demo/";
+  const baseDomainPath = "/aigar-website/";
   const currentPath = window.location.pathname;
 
   const recordVisit = (url) => {
