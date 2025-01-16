@@ -3,8 +3,8 @@ site_url: https://celiamf.github.io/aigar-website/
 
 theme:
   name: material
-  custom_dir: overrides
   language: es
+  custom_dir: overrides
   logo: assets/images/logo.png
   favicon: assets/images/favicon.ico
   font:
@@ -28,7 +28,7 @@ nav:
 copyright: "© 2020: iCarto - Innovación, Cooperación, Cartografía y Territorio S.L."
 
 extra_css:
-  - assets/stylesheets/extra.css
+  - assets/stylesheets/main.css
 
 extra_javascript:
   - assets/javascript/counter.js
@@ -37,6 +37,7 @@ plugins: []
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
