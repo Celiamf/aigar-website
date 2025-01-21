@@ -1,0 +1,21 @@
+/* Hide page title */
+#inicio {
+  display: none;
+}
+
+/* Embedded video */
+.md-typeset iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  display: flex;
+  justify-self: center;
+  border: solid 3px var(--md-accent-fg-color);
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .md-typeset iframe {
+    width: 60%;
+  }
+}

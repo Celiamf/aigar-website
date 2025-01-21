@@ -15,6 +15,7 @@ theme:
     - navigation.tabs.sticky
   palette:
     primary: custom
+    accent: custom
 
 nav:
   - Inicio: index.md
@@ -32,7 +33,11 @@ extra_css:
 extra_javascript:
   - assets/javascript/counter.js
 
-plugins: []
+plugins:
+  - macros:
+      include_dir: overrides
+      module_name: main
+      verbose: true
 
 markdown_extensions:
   - attr_list
@@ -40,3 +45,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

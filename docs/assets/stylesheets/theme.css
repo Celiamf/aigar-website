@@ -5,8 +5,8 @@
   --md-primary-fg-color--dark: #00357a;
 
   /* Accent color shades*/
-  --md-accent-fg-color: #7fbce1;
-  --md-accent-fg-color--transparent: hsla(#7fbce1, 0.1);
+  --md-accent-fg-color: #aa9202;
+  --md-accent-fg-color--transparent: #aa92021a;
 }
 
 .md-typeset h1,
