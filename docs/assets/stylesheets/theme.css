@@ -18,3 +18,16 @@
   font-weight: 500;
   color: var(--md-primary-fg-color--dark);
 }
+
+/* Keep main page title in header */
+.md-header__ellipsis .md-header__topic:first-child {
+  opacity: 1;
+  transform: translateX(0);
+  visibility: visible;
+  position: static;
+}
+
+/* Hide current page title in header */
+.md-header__ellipsis .md-header__topic:last-child {
+  display: none;
+}
