@@ -19,10 +19,9 @@ theme:
 nav:
   - Inicio: index.md
   - Qué es AIGAR: about.md
-  - Metodología: methodology.md
-  - Partes involucradas: parties.md
-  - Estado del proyecto: project.md
   - Descargas: downloads.md
+  - Metodología: methodology.md
+  - Estado del proyecto: project.md
   - Contacto: contact.md
 
 copyright: "© 2020: iCarto - Innovación, Cooperación, Cartografía y Territorio S.L."
