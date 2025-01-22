@@ -4,18 +4,6 @@ hide:
   - toc
 ---
 
-# Contacta
+- Quizás un pequeño texto explicando porqué deberías contactar antes de lanzarte a usar la app, la responsabilidad de cada uno, ...
 
-This is some examples of content tabs.
-
-## Generic Content
-
-=== "Contacta"
-
-    1. [LinkedIn](https://es.linkedin.com/)
-    2. [Instagram](https://es.linkedin.com/)
-
-=== "Visítanos"
-
-    - En la oficina
-    - En las redes
+{% include "partials/contact_cards.html" %}
