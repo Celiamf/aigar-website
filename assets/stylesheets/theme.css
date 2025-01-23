@@ -1,0 +1,20 @@
+:root {
+  /* Primary color shades */
+  --md-primary-fg-color: #025eaa;
+  --md-primary-fg-color--light: #ddebff;
+  --md-primary-fg-color--dark: #00357a;
+
+  /* Accent color shades*/
+  --md-accent-fg-color: #aa9202;
+  --md-accent-fg-color--transparent: #aa92021a;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-weight: 500;
+  color: var(--md-primary-fg-color--dark);
+}
