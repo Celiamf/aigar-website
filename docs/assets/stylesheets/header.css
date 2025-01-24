@@ -8,7 +8,7 @@
 
 @media only screen and (max-width: 768px) {
   .md-header__ellipsis .md-header__topic:first-child {
-    font-size: 0.75rem;
+    font-size: 0.5rem;
   }
 }
 
