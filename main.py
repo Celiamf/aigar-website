@@ -34,17 +34,15 @@ def define_env(env):
     ]
 
     env.variables.funders_data = [
-        {"logo_url": "assets/images/logos/acua.png", "name": "ACUA"},
-        {"logo_url": "assets/images/logos/asaps.jpg", "name": "ASAPS"},
         {
-            "logo_url": "assets/images/logos/isf.jpg",
+            "logo_url": "assets/images/logos/isf.png",
             "name": "Ingeniería Sin Fronteras",
         },
-        {"logo_url": "assets/images/logos/aecid.jpg", "name": "AECID"},
         {
             "logo_url": "assets/images/logos/xunta.png",
             "name": "Cooperación Galega",
         },
+        {"logo_url": "assets/images/logos/aecid.png", "name": "AECID"},
     ]
 
     env.variables.contacts_data = [
