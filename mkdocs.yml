@@ -25,7 +25,7 @@ nav:
   - Estado del proyecto: project.md
   - Contacto: contact.md
 
-copyright: '<a href="https://www.icarto.es" target="_blank">© 2020: iCarto - Innovación, Cooperación, Cartografía y Territorio S.L.</a>'
+copyright: '<a href="https://icarto.es/" target="_blank">© 2020: iCarto - Innovación, Cooperación, Cartografía y Territorio S.L.</a>'
 
 extra_css:
   - assets/stylesheets/main.css
